@@ -1,0 +1,12 @@
+{
+  "python.formatting.provider": "black",
+  "files.watcherExclude": {
+    "**/__pycache__/**": true,
+    "**/save/**": true,
+    "**/wandb/**": true,
+    "**/scgpt_env/**": true
+  },
+  "search.exclude": {
+    "**/scgpt_env/**": true
+  }
+}
