@@ -22,7 +22,7 @@ El fichero Pipeline_Atttention.ipynb es el fichero principal que toma como entra
 
 ## Primer vistazo
 
-![Output](auxData/SalidaPipeline.png)
+![Output](tutorials/auxData/SalidaPipeline.png)
 
 Tras introducir el dataset con las células control y el gen que queremos perturbar (e. g. TAF1) obtendremos una tabla en forma de resumen en la última celda del fichero notebook.
 
