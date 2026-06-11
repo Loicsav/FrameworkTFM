@@ -12,5 +12,11 @@ De manera adicional, para realizar una evaluación externa para evaluar la capac
 
 ## Cómo utilizarlo
 
+Para empezar, si se quiere realizar el fine-tuning de manera propia es necesario descargarse el modelo scGPT de su repositorio de [Hugging Face](https://huggingface.co/wanglab/scGPT-human/tree/main).
 
-## Primer vistazo
+En este [repositorio]([https://huggingface.co/wanglab/scGPT-human/tree/main](https://univmurcia-my.sharepoint.com/:f:/r/personal/manuel_s_d_um_es/Documents/Modelos%20Fine-tuning?csf=1&web=1&e=Zy9a93)) se pueden descargar los modelos con el fine-tuning ya aplicado. Hay modelos entrenados con el dataset de Adamson y otros con el de Tiankampmann utilizando las tecnologías CRISPRi o CRISPRa, todos ellos con distintas estrategias de fine-tuning. Las distintas estrategias fueron utilizar los hiperparámetros orginales del tutorial de fine-tuning de los autores de scGPT, otra fue realizar un cambio de los hiperparámetros, en concreto del weight_decay, el learning rate y el dropout, otra fue realizar un fine-tuning parcial congelando las últimas 6 capas del encoder y la última fue aplicar LoRA al encoder y decoder.
+
+Todos los ficheros necesarios se encuentran en la carpeta `tutorials` donde los ficheros llamados **Tutorial** son los notebooks donde se puede hacer fine-tuning del modelo de scGPT para predecir perturbaciones según el dataset que se le indique. Los ficheros llamados **Parkinson** son los notebooks donde se puede hacer fine-tuning del modelo de scGPT para predecir perturbaciones pero con el dataset de Tiankampmann de genes neuronales.
+
+El fichero Pipeline_Atttention.ipynb es el fichero principal que toma como entrada un conjunto de células control y un gen perturbado y devuelve unas estadísticas sobre el ranking de los 20 DEGs para dicha perturbación junto a un plot y tabla del análisis de enriquecimiento de dicha perturbación. El fichero viene perfectamente comentado con todos los procedimiento que se llevan a cabo.
+
