@@ -20,3 +20,10 @@ Todos los ficheros necesarios se encuentran en la carpeta `tutorials` donde los 
 
 El fichero Pipeline_Atttention.ipynb es el fichero principal que toma como entrada un conjunto de células control y un gen perturbado y devuelve unas estadísticas sobre el ranking de los 20 DEGs para dicha perturbación junto a un plot y tabla del análisis de enriquecimiento de dicha perturbación. El fichero viene perfectamente comentado con todos los procedimiento que se llevan a cabo.
 
+## Primer vistazo
+
+![Output](auxData/SalidaPipeline.png)
+
+Tras introducir el dataset con las células control y el gen que queremos perturbar (e. g. TAF1) obtendremos una tabla en forma de resumen en la última celda del fichero notebook.
+
+Podemos ver que el dataset tras el preprocesamiento tenía 437 células control, 375 células perturbadas, 2001 genes HVGs. Se muestra el top 20 de los genes que más han cambiado su atención tras la perturbación y en la parte derecha se encuentra un top 5 de los términos más significativos con sus correspondientes bases de datos y su p-valor.
