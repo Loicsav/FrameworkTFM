@@ -20,6 +20,8 @@ Todos los ficheros necesarios se encuentran en la carpeta `tutorials` donde los 
 
 El fichero `Pipeline_Atttention.ipynb` es el fichero principal que toma como entrada un conjunto de células control y un gen perturbado y devuelve unas estadísticas sobre el ranking de los 20 DEGs para dicha perturbación junto a un plot y tabla del análisis de enriquecimiento de dicha perturbación. El fichero viene perfectamente comentado con todos los procedimiento que se llevan a cabo.
 
+En la carpeta `tutorials` también se encuentran dos ficheros de texto llamados `Perturbaciones_TianKampmann_CRISPRi` y `Perturbaciones_TianKampmann_CRISPRa` donde se encuentran todas las perturbaciones de cada dataset listada para que se puedan utilizar de manera rápida en la pipeline.
+
 ## Primer vistazo
 
 ![Output](tutorials/auxData/SalidaPipeline.png)
