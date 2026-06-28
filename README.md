@@ -18,7 +18,7 @@ En este [repositorio](https://univmurcia-my.sharepoint.com/:f:/r/personal/manuel
 
 Todos los ficheros necesarios se encuentran en la carpeta `tutorials` donde los ficheros llamados **Tutorial** son los notebooks donde se puede hacer fine-tuning del modelo de scGPT para predecir perturbaciones según el dataset que se le indique. Los ficheros llamados **Parkinson** son los notebooks donde se puede hacer fine-tuning del modelo de scGPT para predecir perturbaciones pero con el dataset de Tiankampmann de genes neuronales.
 
-El fichero Pipeline_Atttention.ipynb es el fichero principal que toma como entrada un conjunto de células control y un gen perturbado y devuelve unas estadísticas sobre el ranking de los 20 DEGs para dicha perturbación junto a un plot y tabla del análisis de enriquecimiento de dicha perturbación. El fichero viene perfectamente comentado con todos los procedimiento que se llevan a cabo.
+El fichero `Pipeline_Atttention.ipynb` es el fichero principal que toma como entrada un conjunto de células control y un gen perturbado y devuelve unas estadísticas sobre el ranking de los 20 DEGs para dicha perturbación junto a un plot y tabla del análisis de enriquecimiento de dicha perturbación. El fichero viene perfectamente comentado con todos los procedimiento que se llevan a cabo.
 
 ## Primer vistazo
 
